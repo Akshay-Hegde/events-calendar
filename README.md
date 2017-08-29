@@ -1,4 +1,4 @@
-# react-you-owe-me
+# events-calendar
 
 This is a side project build with React + Redux + Redux-Thunk + React Router + Bootstrap.
 
