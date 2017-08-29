@@ -59,11 +59,11 @@ export class EventsPage extends React.Component {
             .then(() => {
                 this.hideModal();
                 this.setState({
-                    event: {
+                    event: Object.assign({}, this.state.event, {
                         title: '',
                         participants: '',
                         description: ''
-                    }
+                    })
                 })
             });
     }
