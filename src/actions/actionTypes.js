@@ -1,0 +1,2 @@
+export const LOAD_EVENTS_SUCCESS = 'LOAD_EVENTS_SUCCESS';
+export const ADD_EVENT = 'ADD_EVENT';
